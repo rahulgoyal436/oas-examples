@@ -1,0 +1,11 @@
+requestParam,requestHeader,requestBody,responseBody,statusCode
+,Content-Type: application/json,,{"200": "OK with empty response body"},200
+,Authorization: Bearer token123,,{"200": "OK with empty response body"},200
+,,grant_type: client_credentials,{"200": "OK with empty response body"},200
+,Authorization: Basic abcdefg,,{"200": "OK with empty response body"},200
+,Content-Type: application/x-www-form-urlencoded,,{"200": "OK with empty response body"},200
+,,username: user,{"200": "OK with empty response body"},200
+,,password: pass,{"200": "OK with empty response body"},200
+,Authorization: Auth token456,,{"200": "OK with empty response body"},200
+,,scope: read,{"200": "OK with empty response body"},200
+,Content-Type: multipart/form-data,,{"200": "OK with empty response body"},200
