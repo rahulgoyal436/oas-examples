@@ -1,0 +1,11 @@
+requestHeader|responseBody|statusCode
+Authorization: Bearer token1|200: OK with empty response body|200
+Authorization: Bearer token2|200: OK with empty response body|200
+Authorization: Bearer token3|200: OK with empty response body|200
+Authorization: Bearer token4|200: OK with empty response body|200
+Authorization: Bearer token5|200: OK with empty response body|200
+Authorization: Bearer token6|200: OK with empty response body|200
+Authorization: Bearer token7|200: OK with empty response body|200
+Authorization: Bearer token8|200: OK with empty response body|200
+Authorization: Bearer token9|200: OK with empty response body|200
+Authorization: Bearer token10|200: OK with empty response body|200
