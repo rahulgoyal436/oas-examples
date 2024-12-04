@@ -1,0 +1,11 @@
+requestParam|requestHeader|requestBody|responseBody|statusCode
+{}|{"Content-Type": "application/json"}|{"grant_type": "authorization_code", "code": "abc123"}|{"200": "OK with empty response body"}|200
+{}|{"Authorization": "Bearer token123"}|{"grant_type": "password", "username": "user1", "password": "pass123"}|{"200": "OK with empty response body"}|200
+{}|{"Content-Type": "application/x-www-form-urlencoded"}|{"grant_type": "client_credentials"}|{"200": "OK with empty response body"}|200
+{}|{"Accept": "application/json"}|{"grant_type": "refresh_token", "refresh_token": "xyz456"}|{"200": "OK with empty response body"}|200
+{}|{"Content-Type": "application/json", "Accept": "application/xml"}|{"grant_type": "authorization_code", "code": "def456"}|{"200": "OK with empty response body"}|200
+{}|{}|{"grant_type": "password", "username": "user2", "password": "pass234"}|{"200": "OK with empty response body"}|200
+{}|{"Authorization": "Basic dXNlcjI6cGFzczIzNA=="}|{"grant_type": "password", "username": "user2", "password": "pass234"}|{"200": "OK with empty response body"}|200
+{}|{}|{"grant_type": "client_credentials"}|{"200": "OK with empty response body"}|200
+{}|{"Authorization": "Bearer token456", "Accept": "application/json"}|{"grant_type": "refresh_token", "refresh_token": "uvw789"}|{"200": "OK with empty response body"}|200
+{}|{"Content-Type": "application/x-www-form-urlencoded"}|{"grant_type": "authorization_code", "code": "ghi789"}|{"200": "OK with empty response body"}|200
